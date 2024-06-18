@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body {
+    background-image: url(../images/sylvia-yang-_ar2ENzmqb0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+.HeadSection{
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+
+}
+.HeadSection h1{
+    display: flex;
+    justify-content: flex-start;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.HeadSection .wrapper{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.wrapper .button{
+    /* Optional: Add styles for anchor elements */
+    padding: 20px;
+    background: lightcoral;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    background-color: rgba(27, 206, 234, 0.6);
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
